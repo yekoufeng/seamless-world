@@ -1,0 +1,346 @@
+{
+    "1": {
+        "id": 1, 
+        "type": 1, 
+        "name": "唐战", 
+        "price": 9999, 
+        "relationID": 1, 
+        "state": 2
+    }, 
+    "2": {
+        "id": 2, 
+        "type": 1, 
+        "name": "宋峰", 
+        "price": 9999, 
+        "relationID": 2, 
+        "state": 3
+    }, 
+    "3": {
+        "id": 3, 
+        "type": 1, 
+        "name": "博罗索夫", 
+        "price": 19999, 
+        "relationID": 3, 
+        "state": 0
+    }, 
+    "4": {
+        "id": 4, 
+        "type": 1, 
+        "name": "斯内克", 
+        "price": 29999, 
+        "relationID": 4, 
+        "state": 0
+    }, 
+    "5": {
+        "id": 5, 
+        "type": 1, 
+        "name": "米尔塔", 
+        "price": 9999, 
+        "relationID": 5, 
+        "state": 0
+    }, 
+    "6": {
+        "id": 6, 
+        "type": 1, 
+        "name": "季青", 
+        "price": 11111, 
+        "relationID": 6, 
+        "state": 3
+    }, 
+    "7": {
+        "id": 7, 
+        "type": 1, 
+        "name": "娜塔莎", 
+        "price": 22222, 
+        "relationID": 7, 
+        "state": 2
+    }, 
+    "8": {
+        "id": 8, 
+        "type": 1, 
+        "name": "普通小哥哥", 
+        "price": 1, 
+        "relationID": 8, 
+        "state": 0
+    }, 
+    "9": {
+        "id": 9, 
+        "type": 1, 
+        "name": "普通小姐姐", 
+        "price": 1, 
+        "relationID": 9, 
+        "state": 0
+    }, 
+    "1610": {
+        "id": 1610, 
+        "type": 2, 
+        "name": "默认", 
+        "price": 9999, 
+        "relationID": 1610, 
+        "state": 3
+    }, 
+    "1621": {
+        "id": 1621, 
+        "type": 2, 
+        "name": "手Q专属", 
+        "price": 9999, 
+        "relationID": 1621, 
+        "state": 4
+    }, 
+    "1622": {
+        "id": 1622, 
+        "type": 2, 
+        "name": "微信专属", 
+        "price": 9999, 
+        "relationID": 1622, 
+        "state": 4
+    }, 
+    "1623": {
+        "id": 1623, 
+        "type": 2, 
+        "name": "极光专属", 
+        "price": 9999, 
+        "relationID": 1623, 
+        "state": 4
+    }, 
+    "1624": {
+        "id": 1624, 
+        "type": 2, 
+        "name": "应用宝专属", 
+        "price": 9999, 
+        "relationID": 1624, 
+        "state": 4
+    }, 
+    "1625": {
+        "id": 1625, 
+        "type": 2, 
+        "name": "浏览器专属", 
+        "price": 9999, 
+        "relationID": 1625, 
+        "state": 4
+    }, 
+    "1626": {
+        "id": 1626, 
+        "type": 2, 
+        "name": "腾讯爱玩专属", 
+        "price": 9999, 
+        "relationID": 1626, 
+        "state": 4
+    }, 
+    "1627": {
+        "id": 1627, 
+        "type": 2, 
+        "name": "外部渠道", 
+        "price": 9999, 
+        "relationID": 1627, 
+        "state": 4
+    }, 
+    "1628": {
+        "id": 1628, 
+        "type": 2, 
+        "name": "oppo专属", 
+        "price": 9999, 
+        "relationID": 1628, 
+        "state": 4
+    }, 
+    "1629": {
+        "id": 1629, 
+        "type": 2, 
+        "name": "VIVO专属", 
+        "price": 9999, 
+        "relationID": 1629, 
+        "state": 4
+    }, 
+    "1630": {
+        "id": 1630, 
+        "type": 2, 
+        "name": "华为专属", 
+        "price": 9999, 
+        "relationID": 1630, 
+        "state": 4
+    }, 
+    "1631": {
+        "id": 1631, 
+        "type": 2, 
+        "name": "使命先锋专属", 
+        "price": 9999, 
+        "relationID": 1631, 
+        "state": 1
+    }, 
+    "1632": {
+        "id": 1632, 
+        "type": 2, 
+        "name": "超级会员专属", 
+        "price": 9999, 
+        "relationID": 1632, 
+        "state": 4
+    }, 
+    "1633": {
+        "id": 1633, 
+        "type": 2, 
+        "name": "企鹅电竞专属", 
+        "price": 9999, 
+        "relationID": 1633, 
+        "state": 4
+    }, 
+    "1634": {
+        "id": 1634, 
+        "type": 2, 
+        "name": "电脑管家专属", 
+        "price": 9999, 
+        "relationID": 1634, 
+        "state": 4
+    }, 
+    "1635": {
+        "id": 1635, 
+        "type": 2, 
+        "name": "手机管家专属", 
+        "price": 9999, 
+        "relationID": 1635, 
+        "state": 4
+    }, 
+    "1636": {
+        "id": 1636, 
+        "type": 2, 
+        "name": "心悦专属", 
+        "price": 9999, 
+        "relationID": 1636, 
+        "state": 4
+    }, 
+    "1637": {
+        "id": 1637, 
+        "type": 2, 
+        "name": "微信集字活动", 
+        "price": 9999, 
+        "relationID": 1637, 
+        "state": 4
+    }, 
+    "1638": {
+        "id": 1638, 
+        "type": 2, 
+        "name": "taptap专属", 
+        "price": 9999, 
+        "relationID": 1638, 
+        "state": 4
+    }, 
+    "1639": {
+        "id": 1639, 
+        "type": 2, 
+        "name": "4399专属", 
+        "price": 9999, 
+        "relationID": 1639, 
+        "state": 4
+    }, 
+    "1640": {
+        "id": 1640, 
+        "type": 2, 
+        "name": "百度专属", 
+        "price": 9999, 
+        "relationID": 1640, 
+        "state": 4
+    }, 
+    "1641": {
+        "id": 1641, 
+        "type": 2, 
+        "name": "UC专属", 
+        "price": 9999, 
+        "relationID": 1641, 
+        "state": 4
+    }, 
+    "1642": {
+        "id": 1642, 
+        "type": 2, 
+        "name": "魅族专属", 
+        "price": 9999, 
+        "relationID": 1642, 
+        "state": 4
+    }, 
+    "1643": {
+        "id": 1643, 
+        "type": 2, 
+        "name": "初始", 
+        "price": 9999, 
+        "relationID": 1643, 
+        "state": 1
+    }, 
+    "1644": {
+        "id": 1644, 
+        "type": 2, 
+        "name": "QQ钱包专属", 
+        "price": 9999, 
+        "relationID": 1644, 
+        "state": 4
+    }, 
+    "1645": {
+        "id": 1645, 
+        "type": 2, 
+        "name": "光荣使命默认", 
+        "price": 9999, 
+        "relationID": 1645, 
+        "state": 1
+    }, 
+    "1646": {
+        "id": 1646, 
+        "type": 2, 
+        "name": "光荣先锋专属", 
+        "price": 9999, 
+        "relationID": 1646, 
+        "state": 4
+    }, 
+    "1647": {
+        "id": 1647, 
+        "type": 2, 
+        "name": "手Q集字活动", 
+        "price": 9999, 
+        "relationID": 1647, 
+        "state": 4
+    }, 
+    "2201": {
+        "id": 2201, 
+        "type": 3, 
+        "name": "金币", 
+        "price": 0, 
+        "relationID": 2201, 
+        "state": 1
+    }, 
+    "3001": {
+        "id": 3001, 
+        "type": 4, 
+        "name": "圣诞帽", 
+        "price": 9999, 
+        "relationID": 6, 
+        "state": 3
+    }, 
+    "3501": {
+        "id": 3501, 
+        "type": 4, 
+        "name": "圣诞面具", 
+        "price": 9999, 
+        "relationID": 7, 
+        "state": 3
+    }, 
+    "4001": {
+        "id": 4001, 
+        "type": 4, 
+        "name": "圣诞外套", 
+        "price": 9999, 
+        "relationID": 8, 
+        "state": 3
+    }, 
+    "4501": {
+        "id": 4501, 
+        "type": 4, 
+        "name": "圣诞裤", 
+        "price": 9999, 
+        "relationID": 9, 
+        "state": 3
+    }, 
+    "5001": {
+        "id": 5001, 
+        "type": 4, 
+        "name": "圣诞靴", 
+        "price": 9999, 
+        "relationID": 10, 
+        "state": 3
+    }
+}

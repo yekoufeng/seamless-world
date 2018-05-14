@@ -1,0 +1,369 @@
+syntax = "proto3";
+
+package protoMsg;
+
+
+//s-->c 玩家主数据
+message UserMainDataNotify {
+	uint64 uid = 1;
+	string name = 2;
+	uint64 coins = 3;
+	uint64 diams = 4;
+}
+
+//坐标
+message Vector3 {
+	float x = 1;
+	float y = 2;
+	float z = 3;
+}
+
+// TLog 玩家注册消息
+message PlayerRegister {
+	string GameSvrID = 1;
+	string DtEventTime = 2;
+	string VGameAppID = 3;
+	uint32 PlatID = 4;
+	uint32 IZoneAreaID = 5;
+	string VOpenID = 6;
+	string TelecomOper = 7;
+	string RegChannel = 8;
+	uint32 LoginChannel = 9;
+}
+
+// TLog 玩家登录消息
+message PlayerLogin {
+	string GameSvrID = 1;
+	string DtEventTime = 2;
+	string VGameAppID = 3;
+	uint32 PlatID = 4;
+	uint32 IZoneAreaID = 5;
+	string VOpenID = 6;
+	uint32 Level = 7;
+	uint32 PlayerFriendsNum = 8;
+	string ClientVersion = 9;
+	string SystemHardware = 10;
+	string TelecomOper = 11;
+	string Network = 12;
+	uint32 LoginChannel = 13;
+	string VRoleID = 14;
+	string VRoleName = 15;
+	string RegChannel = 16;
+}
+
+// TLog 玩家登出消息
+message PlayerLogout {
+	string GameSvrID = 1;
+	string DtEventTime = 2;
+	string VGameAppID = 3;
+	uint32 PlatID = 4;
+	uint32 IZoneAreaID = 5;
+	string VOpenID = 6;
+	uint32 OnlineTime = 7;
+	uint32 Level = 8;
+	uint32 PlayerFriendsNum = 9;
+	string ClientVersion = 10;
+	string SystemHardware = 11;
+	string TelecomOper = 12;
+	string Network = 13;
+}
+
+message MailObject {
+	uint32 id = 1;
+	uint32 num = 2;
+}
+message MailInfo {
+	uint64 mailid = 1;
+	uint32 mailtype = 2;	//0:系统邮件
+	uint64 gettime = 3;
+	bool   haveread = 4;
+	string title = 5;
+	string text = 6;
+	string url = 7;
+	repeated MailObject objs = 8;
+	bool 	haveget = 9;   //附件领取标识
+	string button = 10;
+}
+
+//获取邮件列表
+message ReqGetMailList {
+}
+
+//返回邮件列表
+message RetMailList {
+	repeated MailInfo mails = 1;
+}
+
+//查看邮件
+message ReqMailInfo {
+	uint64 mailid = 1;
+}
+
+//返回邮件信息
+message RetMailInfo {
+	MailInfo mail = 1;
+}
+
+//删除邮件 (返回RetMailList)
+message DelMail {
+	repeated uint64 mailid = 1;
+}
+
+//领取附件 (返回RetMailInfo)
+message GetMailObj {
+	uint64 mailid = 1;
+}
+
+// 公告信息
+message AnnuonceInfo {
+	uint64 id           = 1;	
+	int64 startTime     = 2;	// 开始时间
+	int64 endTime       = 3;	// 结束时间
+	int64 internalTime  = 4;	// 间隔时间
+	string content      = 5;   // 显示公告信息
+}
+
+
+//s-->c 初始化公告信息
+message InitAnnuonceInfoRet {
+	repeated AnnuonceInfo item	= 1;
+}
+
+// 好友信息
+message FriendInfo {
+	uint64 id = 1;
+	string name = 2;
+	uint32	state = 3;	// 好友状态 0、离线 1、游戏中 2、空闲 3、匹配中 
+	uint32  time = 4;	// 状态使用时间
+	string url = 5;	// 好友头像url
+	string enterplat = 6; // 登录平台
+	uint32  qqvip = 7;  // qqVip信息
+	string nickname = 8; //  昵称
+}
+
+//c-->s 请求平台好友状态
+message PlatFriendStateReq {
+	repeated string openid = 1;
+}
+
+message PlatFriendState {
+	string openid = 1;
+	uint64 uid = 2;		
+	uint32 state = 3;		// 游戏状态
+	uint32 time = 4;		// 登录时间
+	string name = 5; 		// 游戏中名称
+}
+
+message PlatFriendStateRet {
+	repeated PlatFriendState data = 1;
+}
+
+// 好友排名信息
+message FriendRankInfo {
+	uint64 Uid = 1;
+	string Name = 2;
+	string Url = 3;	// 好友头像url
+	float SoloRating = 4;
+	float DuoRating = 5;
+	float SquadRating = 6; 
+	uint32 QqVip = 7;
+	string GameEenter = 8; 
+}
+
+
+
+// s-->c 同步好友信息列表
+message SyncFriendList {
+	repeated FriendInfo item = 1;
+}
+
+// 好友申请列表信息
+message FriendApplyInfo {
+	uint64 id = 1;
+	string name = 2;		
+	int64  applyTime = 3;	// 申请时间
+}
+
+// s-->c 同步好友申请列表信息
+message SyncFriendApplyList {
+	repeated FriendApplyInfo item = 1;
+}
+
+message DoSendItemReq {
+	string title = 1;
+	string content = 2;
+	repeated MailObject objs = 3;
+	string url = 4;
+}
+
+// GameSvrState 服务器状态日志
+message GameSvrState {
+	string DtEventTime = 1;
+	string VGameIP = 2;
+	uint32 IZoneAreaID = 3;
+}
+
+message OwnGoodsItem {
+	uint32 id = 1;	// 商品id
+	uint32 state = 2;	// 状态
+}
+
+message OwnGoodsInfo {
+	repeated OwnGoodsItem list = 1; // 物品信息
+}
+
+
+message RectInfo
+{
+	double xmin = 1;
+	double xmax = 2;
+	double ymin = 3;
+	double ymax = 4;
+}
+
+
+// CreateEntityReq 请求创建space消息
+message CreateSpaceReq
+{
+	uint32 CellappIndex = 1;
+	uint64 SrvID = 2;
+}
+
+message CreateSpaceRet
+{
+	uint64   SpaceID = 1;
+	RectInfo Srect = 2;     //space的边界
+	uint64   CellID = 3;
+	RectInfo Crect = 4;     //cell的边界
+	string MapName = 5;   //地图名
+	
+	
+}
+
+// CreateEntityRet 请求创建space返回消息
+
+message ReportCellLoad
+{
+	uint64 srvID = 1;
+	uint64 spaceID = 2;
+	map<uint64, uint32> cellload = 3;
+	uint32 srvLoad = 4;      // 服务器的压力，内存或cpu
+}
+
+
+//lobby-->CellMgr
+message CellInfoReq {
+	uint64 entityID = 1;  		//实体id
+	string mapName = 2;			//地图名
+	Vector3 pos = 3;			//在地图中的坐标
+	uint64 SrvID = 4;			//lobby的服务器id
+}
+
+//CellMgr-->lobby
+message CellInfoRet {
+	uint64 entityID = 1;		//实体id
+	uint64 spaceID = 2;			//spaceID
+	uint64 cellID = 3;			//cellID
+	uint64 cellSrvID = 4;		//cell服务器id
+	Vector3 pos = 5;			//坐标
+}
+
+
+
+//CellMgr-->cell主动通知cell边界的变化
+message CellBorderChangeNotify {
+	uint64 spaceID = 1;
+	uint64 cellID = 2;
+	RectInfo rectinfo  = 3; //cellID对应的边界
+}
+
+//广播给所有cellapp,新增、删除或修改cellinfo
+//目前是通过cellmgr进行广播，没有通过redis拿到所有server，再去广播
+message CellInfoNotify {
+	uint32  operate = 1; //1:增加  2:修改 3:删除
+	uint64 spaceID = 2;
+	uint64 cellID  = 3;
+	RectInfo rectInfo  = 4; //cell的边界信息
+	uint64 srvID = 5; //cell所在的server
+}
+
+
+//通知cellapp创建新的cell
+message CreateCellNotify {
+	
+	uint64   SpaceID = 1;
+	RectInfo Srect = 2;     //space的边界
+	uint64   CellID = 3;
+	RectInfo Crect = 4;   //cell的边界
+	string MapName = 5;   //地图名
+}
+
+//通知cellapp删除cell
+message DeleteCellNotify {
+	
+	uint64   SpaceID = 1;
+	uint64   CellID = 3;
+}
+
+
+
+message SkillEffect {
+	uint32 recoverhp = 1;
+	uint32 damage = 2;
+	uint32 reduceDefence = 3;
+	uint32 addDefence = 4;
+	uint32 state = 5;
+	repeated uint32 bufflist = 6;
+}
+
+message AttackReq {
+	uint32 skillID = 1;		//使用的技能ID
+	uint64 targetID = 2;	//目标ID
+	float x = 3;			//x,z指定施放的位置
+	float z = 4;
+}
+
+//C->S
+message MoveReq {
+	Vector3 pos = 1;
+	Vector3 rota = 2;
+	bool stoped = 3;
+	uint64 timestamp = 4;
+}
+
+//S->C
+message MoveUpdate {
+	uint64 entityID = 1;
+	Vector3 pos = 2;
+	Vector3 rota = 3;
+	bool stoped = 4;
+	uint64 timestamp = 5;
+}
+
+message DetectCell {
+	
+}
+
+//S->C 进入cell成功
+message EnterCellOk {
+	uint32 mapID = 1;
+	string mapName = 2;
+	Vector3 pos = 3;
+	Vector3 rota = 4;
+	uint64 cellID = 5;
+}
+
+enum EffectType {
+	Damage = 0;
+	RecoverHp = 1;
+	ReduceDefence = 2;
+	AddDefence = 3;
+};
+
+message EffectNotify {
+	uint64 entityID = 1;
+	EffectType effectType = 2;
+	int64 effectParam = 3;
+}
+
+

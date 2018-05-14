@@ -1,0 +1,32 @@
+{
+    "1": {
+        "id": 1, 
+        "productid": "2201", 
+        "goodslocalicon": "Item/AK47.png", 
+        "buynum": "1", 
+        "payitem": "1", 
+        "ext": "123", 
+        "isChange": 1, 
+        "sername": "金币测试", 
+        "serviceCode": "LTMCLUB|CJCLUBT\n", 
+        "autoPay": 0, 
+        "resId": "https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png", 
+        "mallLogo": "https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png", 
+        "payType": 1
+    }, 
+    "2": {
+        "id": 2, 
+        "productid": "2201", 
+        "goodslocalicon": "Item/AK47.png", 
+        "buynum": "1", 
+        "payitem": "1", 
+        "ext": "123", 
+        "isChange": 1, 
+        "sername": "金币测试", 
+        "serviceCode": "LTMCLUB|CJCLUBT\n", 
+        "autoPay": 0, 
+        "resId": "https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png", 
+        "mallLogo": "https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png", 
+        "payType": 2
+    }
+}

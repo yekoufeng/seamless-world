@@ -1,0 +1,102 @@
+{
+    "1": {
+        "id": 1, 
+        "score": 1000, 
+        "AInumber": 88
+    }, 
+    "2": {
+        "id": 2, 
+        "score": 1200, 
+        "AInumber": 72
+    }, 
+    "3": {
+        "id": 3, 
+        "score": 1400, 
+        "AInumber": 60
+    }, 
+    "4": {
+        "id": 4, 
+        "score": 1600, 
+        "AInumber": 40
+    }, 
+    "5": {
+        "id": 5, 
+        "score": 1800, 
+        "AInumber": 0
+    }, 
+    "6": {
+        "id": 6, 
+        "score": 2000, 
+        "AInumber": 0
+    }, 
+    "7": {
+        "id": 7, 
+        "score": 2200, 
+        "AInumber": 0
+    }, 
+    "8": {
+        "id": 8, 
+        "score": 2400, 
+        "AInumber": 0
+    }, 
+    "9": {
+        "id": 9, 
+        "score": 2600, 
+        "AInumber": 0
+    }, 
+    "10": {
+        "id": 10, 
+        "score": 2800, 
+        "AInumber": 0
+    }, 
+    "11": {
+        "id": 11, 
+        "score": 3000, 
+        "AInumber": 0
+    }, 
+    "12": {
+        "id": 12, 
+        "score": 3200, 
+        "AInumber": 0
+    }, 
+    "13": {
+        "id": 13, 
+        "score": 3400, 
+        "AInumber": 0
+    }, 
+    "14": {
+        "id": 14, 
+        "score": 3600, 
+        "AInumber": 0
+    }, 
+    "15": {
+        "id": 15, 
+        "score": 3800, 
+        "AInumber": 0
+    }, 
+    "16": {
+        "id": 16, 
+        "score": 4000, 
+        "AInumber": 0
+    }, 
+    "17": {
+        "id": 17, 
+        "score": 4200, 
+        "AInumber": 0
+    }, 
+    "18": {
+        "id": 18, 
+        "score": 4400, 
+        "AInumber": 0
+    }, 
+    "19": {
+        "id": 19, 
+        "score": 4600, 
+        "AInumber": 0
+    }, 
+    "20": {
+        "id": 20, 
+        "score": 1000000, 
+        "AInumber": 0
+    }
+}

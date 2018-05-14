@@ -1,0 +1,40 @@
+{
+    "goproject.projects": [
+        {
+            "project_dir":"src/Gateway",     //指定一个项目目录 绝对路径或相对打开目录（使用工作区时相对工作区目录）
+            "build_args":"-gcflags -\"-N -l\"",
+			"build_outdir":"bin/",  //指定编译输出目录 绝对路径或相对打开目录（使用工作区时相对工作区目录）
+            "run_args":"",           //运行参数
+            "run_delay":1000
+        },
+        {
+            "project_dir":"src/Lobby",     //指定一个项目目录 绝对路径或相对打开目录（使用工作区时相对工作区目录）
+            "build_args":"-gcflags -\"-N -l\"",
+			"build_outdir":"bin/",  //指定编译输出目录 绝对路径或相对打开目录（使用工作区时相对工作区目录）
+            "run_args":""           //运行参数
+        },
+        {
+            "project_dir":"src/Login",     //指定一个项目目录 绝对路径或相对打开目录（使用工作区时相对工作区目录）
+            "build_args":"-gcflags -\"-N -l\"",
+			"build_outdir":"bin/",  //指定编译输出目录 绝对路径或相对打开目录（使用工作区时相对工作区目录）
+            "run_args":""           //运行参数
+        },
+        {
+            "project_dir":"src/CellApp",     //指定一个项目目录 绝对路径或相对打开目录（使用工作区时相对工作区目录）
+            "build_args":"-gcflags -\"-N -l\"",
+			"build_outdir":"bin/",  //指定编译输出目录 绝对路径或相对打开目录（使用工作区时相对工作区目录）
+            "run_args":"",           //运行参数
+            "run_delay":10000
+        },
+        {
+            "project_dir":"src/CellAppMgr",     //指定一个项目目录 绝对路径或相对打开目录（使用工作区时相对工作区目录）
+            "build_args":"-gcflags -\"-N -l\"",
+			"build_outdir":"bin/",  //指定编译输出目录 绝对路径或相对打开目录（使用工作区时相对工作区目录）
+            "run_args":"",           //运行参数
+            "run_delay":10000
+        }
+
+    ],
+    //"go.gopath": "E:\\work\\guangrongshiming\\branch_newversion\\server;E:\\work\\guangrongshiming\\branch_newversion\\zeus;F:\\branch_newversion\\server;F:\\branch_newversion\\zeus"
+    "go.gopath": "F:\\t_work\\Seamless\\server"
+}

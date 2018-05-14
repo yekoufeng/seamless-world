@@ -1,0 +1,150 @@
+{
+    "Login": {
+        "Addr": "0.0.0.0",
+        "Port": "8080",
+        "MaxConns": 1000,
+        "AllowVersion": "1.0.1",
+        "VersionCheck": false,
+        "AllowGrade": "2",
+        "InitGrade": "0",
+        "ForceCreate": "1",
+        "ForceChannel": "0",
+        "RequireHost": "0",
+        "Log": true
+    },
+    "Gateway": {
+        "FlagId": "10201",
+        "InnerAddr": "127.0.0.1",
+        "OuterAddr": "192.168.93.92",
+        "OuterPort": "0",
+        "OuterListen": "0.0.0.0",
+        "OuterPortMin": "2000",
+        "OuterPortMax": "3000",
+        "PortMin": "2000",
+        "PortMax": "3000",
+        "MaxConns": 8000,
+        "FPS": "30",
+        "ProtoFile": "../res/config/proto.json"
+    },
+    "Lobby": {
+        "FlagId": "10301",
+        "InnerAddr": "127.0.0.1",
+        "FPS": "30",
+        "PortMin": "3000",
+        "PortMax": "4000",
+        "MySQLUser": "root",
+        "MySQLPwd": "123456",
+        "MySQLAddr": "127.0.0.1:3306",
+        "MySQLDB": "db_cldts_online",
+        "MySQLTable": "tb_cldts_onlinecnt",
+        "Solo": true,
+        "Duo": true,
+        "Squad": true
+    },
+    "Center": {
+        "FlagId": "10501",
+        "InnerAddr": "127.0.0.1",
+        "FPS": "30",
+        "PortMin": "5000",
+        "PortMax": "6000",
+        "IDIPAddr": "0.0.0.0",
+        "IDIPPort": "3300"
+    },
+	"CellApp": {
+		"FlagId": "10701",
+        "InnerAddr": "127.0.0.1",
+        "PortMin": "7000",
+        "PortMax": "8000",
+        "OuterAddr": "localhost",
+        "OuterPort": "0",
+        "OuterListen": "0.0.0.0",
+        "OuterPortMin": "6000",
+        "OuterPortMax": "7000",
+        "SpaceProtocal": "tcp",
+        "MaxConns": 8000,
+        "FPS": "30",
+        "SafeCheckHeight": true,
+        "CheckHeadShot": true
+	},
+	"CellAppMgr": {
+		"FlagId": "10801",
+        "InnerAddr": "127.0.0.1",
+        "PortMin": "8100",
+        "PortMax": "9000",
+        "OuterAddr": "localhost",
+        "OuterPort": "0",
+        "OuterListen": "0.0.0.0",
+        "OuterPortMin": "7000",
+        "OuterPortMax": "8000",
+        "SpaceProtocal": "tcp",
+        "MaxConns": 8000,
+        "FPS": "30",
+        "SafeCheckHeight": true,
+        "CheckHeadShot": true
+	},
+    "DataCenter": {
+        "InnerAddr": "127.0.0.1",
+        "InnerPort": "7000",
+        "OuterAddr": "localhost",
+        "OuterListen": "0.0.0.0",
+        "OuterListenPort": "8000",
+        "OuterPort": "8000"
+    },
+    "IDIP": {
+        "Addr": "0.0.0.0",
+        "Port": "4400",
+        "QQAddr": "http://127.0.0.1",
+        "QQPort": "3300",
+        "WXAddr": "http://127.0.0.1",
+        "WXPort": "3300"
+    },
+    "DB": {
+        "Addr": "127.0.0.1:6379",
+        "MaxIdle": "10",
+        "IdleTimeout": "5",
+        "MaxActive": "0",
+        "Password": "",
+        "Index": "1"
+    },
+    "RedisForServer": {
+        "Addr": "127.0.0.1:6379",
+        "MaxIdle": "10",
+        "IdleTimeout": "5",
+        "MaxActive": "0",
+        "Password": "",
+        "Index": "2"
+    },
+    "SingletonRedis": {
+        "Addr": "127.0.0.1:6379",
+        "MaxIdle": "5",
+        "IdleTimeout": "10",
+        "MaxActive": "50",
+        "Password": "",
+        "Index": "3"
+    },
+    "RankRedis": {
+        "Addr": "127.0.0.1:6379",
+        "MaxIdle": "5",
+        "IdleTimeout": "10",
+        "MaxActive": "50",
+        "Password": "",
+        "Index": "4"
+    },
+    "Config": {
+        "HeartBeat": true,
+        "LogDir": "../log/",
+        "Debug": "1",
+        "LogLevel": "debug",
+        "Recover": "0",
+        "TLogAddr": "",
+        "HBTimer": 300,
+        "HBTicker": 1,
+        "MaxLoad": 99,
+        "RedisHealthCheckTimer": 1,
+        "EncryptEnabled": true,
+        "MSDKAddr": "http://msdktest.qq.com"
+    },
+    "Admin": {
+        "Domain": "127.0.0.1,localhost"
+    }
+}

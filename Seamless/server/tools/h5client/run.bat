@@ -1,0 +1,1 @@
+call npm run web

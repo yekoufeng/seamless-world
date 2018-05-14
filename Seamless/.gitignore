@@ -1,0 +1,7 @@
+server/log
+.vscode
+server/pkg
+server/serverbin
+/server/tools/node.js/jsClt/node_modules
+/server/tools/node.js/jsClt/.idea
+/server/bin

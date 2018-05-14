@@ -1,0 +1,149 @@
+{
+    "1": {
+        "id": 1, 
+        "dist": 0, 
+        "attackAgain": 1.0, 
+        "baseAcc": 0.3, 
+        "baseBeDetectedRate": 1.0
+    }, 
+    "2": {
+        "id": 2, 
+        "dist": 5, 
+        "attackAgain": 1.0, 
+        "baseAcc": 0.44999999999999996, 
+        "baseBeDetectedRate": 0.95
+    }, 
+    "3": {
+        "id": 3, 
+        "dist": 10, 
+        "attackAgain": 1.0, 
+        "baseAcc": 0.6, 
+        "baseBeDetectedRate": 0.9
+    }, 
+    "4": {
+        "id": 4, 
+        "dist": 15, 
+        "attackAgain": 0.9, 
+        "baseAcc": 0.55, 
+        "baseBeDetectedRate": 0.8500000000000001
+    }, 
+    "5": {
+        "id": 5, 
+        "dist": 20, 
+        "attackAgain": 0.8, 
+        "baseAcc": 0.5, 
+        "baseBeDetectedRate": 0.8
+    }, 
+    "6": {
+        "id": 6, 
+        "dist": 25, 
+        "attackAgain": 0.75, 
+        "baseAcc": 0.45, 
+        "baseBeDetectedRate": 0.75
+    }, 
+    "7": {
+        "id": 7, 
+        "dist": 30, 
+        "attackAgain": 0.7, 
+        "baseAcc": 0.4, 
+        "baseBeDetectedRate": 0.7
+    }, 
+    "8": {
+        "id": 8, 
+        "dist": 35, 
+        "attackAgain": 0.6499999999999999, 
+        "baseAcc": 0.30000000000000004, 
+        "baseBeDetectedRate": 0.6499999999999999
+    }, 
+    "9": {
+        "id": 9, 
+        "dist": 40, 
+        "attackAgain": 0.6, 
+        "baseAcc": 0.2, 
+        "baseBeDetectedRate": 0.6
+    }, 
+    "10": {
+        "id": 10, 
+        "dist": 45, 
+        "attackAgain": 0.5, 
+        "baseAcc": 0.175, 
+        "baseBeDetectedRate": 0.5
+    }, 
+    "11": {
+        "id": 11, 
+        "dist": 50, 
+        "attackAgain": 0.4, 
+        "baseAcc": 0.15, 
+        "baseBeDetectedRate": 0.4
+    }, 
+    "12": {
+        "id": 12, 
+        "dist": 55, 
+        "attackAgain": 0.325, 
+        "baseAcc": 0.125, 
+        "baseBeDetectedRate": 0.30000000000000004
+    }, 
+    "13": {
+        "id": 13, 
+        "dist": 60, 
+        "attackAgain": 0.25, 
+        "baseAcc": 0.1, 
+        "baseBeDetectedRate": 0.2
+    }, 
+    "14": {
+        "id": 14, 
+        "dist": 65, 
+        "attackAgain": 0.2, 
+        "baseAcc": 0.09, 
+        "baseBeDetectedRate": 0.15000000000000002
+    }, 
+    "15": {
+        "id": 15, 
+        "dist": 70, 
+        "attackAgain": 0.15, 
+        "baseAcc": 0.08, 
+        "baseBeDetectedRate": 0.1
+    }, 
+    "16": {
+        "id": 16, 
+        "dist": 75, 
+        "attackAgain": 0.125, 
+        "baseAcc": 0.065, 
+        "baseBeDetectedRate": 0.07500000000000001
+    }, 
+    "17": {
+        "id": 17, 
+        "dist": 80, 
+        "attackAgain": 0.1, 
+        "baseAcc": 0.05, 
+        "baseBeDetectedRate": 0.05
+    }, 
+    "18": {
+        "id": 18, 
+        "dist": 85, 
+        "attackAgain": 0.07500000000000001, 
+        "baseAcc": 0.035, 
+        "baseBeDetectedRate": 0.035
+    }, 
+    "19": {
+        "id": 19, 
+        "dist": 90, 
+        "attackAgain": 0.05, 
+        "baseAcc": 0.02, 
+        "baseBeDetectedRate": 0.02
+    }, 
+    "20": {
+        "id": 20, 
+        "dist": 95, 
+        "attackAgain": 0.030000000000000002, 
+        "baseAcc": 0.015, 
+        "baseBeDetectedRate": 0.01
+    }, 
+    "21": {
+        "id": 21, 
+        "dist": 100, 
+        "attackAgain": 0.01, 
+        "baseAcc": 0.01, 
+        "baseBeDetectedRate": 0.0
+    }
+}

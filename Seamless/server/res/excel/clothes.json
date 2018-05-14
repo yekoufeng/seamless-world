@@ -1,0 +1,72 @@
+{
+    "1": {
+        "id": 1, 
+        "name": "帽子", 
+        "position": 1, 
+        "gender": 2, 
+        "dropItemId": 0
+    }, 
+    "2": {
+        "id": 2, 
+        "name": "面部", 
+        "position": 2, 
+        "gender": 2, 
+        "dropItemId": 0
+    }, 
+    "3": {
+        "id": 3, 
+        "name": "上衣", 
+        "position": 3, 
+        "gender": 2, 
+        "dropItemId": 0
+    }, 
+    "4": {
+        "id": 4, 
+        "name": "裤子", 
+        "position": 4, 
+        "gender": 2, 
+        "dropItemId": 0
+    }, 
+    "5": {
+        "id": 5, 
+        "name": "鞋子", 
+        "position": 5, 
+        "gender": 2, 
+        "dropItemId": 0
+    }, 
+    "6": {
+        "id": 6, 
+        "name": "帽子1", 
+        "position": 1, 
+        "gender": 2, 
+        "dropItemId": 3001
+    }, 
+    "7": {
+        "id": 7, 
+        "name": "面部1", 
+        "position": 2, 
+        "gender": 2, 
+        "dropItemId": 3501
+    }, 
+    "8": {
+        "id": 8, 
+        "name": "上衣1", 
+        "position": 3, 
+        "gender": 2, 
+        "dropItemId": 4001
+    }, 
+    "9": {
+        "id": 9, 
+        "name": "裤子1", 
+        "position": 4, 
+        "gender": 2, 
+        "dropItemId": 4501
+    }, 
+    "10": {
+        "id": 10, 
+        "name": "鞋子1", 
+        "position": 5, 
+        "gender": 2, 
+        "dropItemId": 5001
+    }
+}

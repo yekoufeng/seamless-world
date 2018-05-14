@@ -1,0 +1,11 @@
+{
+    "DB": {
+        "Addr": "192.168.150.190:6379",
+        "MaxIdle": "10", 
+        "IdleTimeout": "5",
+        "MaxActive": "0",
+        "Password": "",
+        "Index": "0"
+    },
+    "InitGrade": 3
+}

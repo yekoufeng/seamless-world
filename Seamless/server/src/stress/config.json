@@ -1,0 +1,14 @@
+{
+    "Config": {
+        "HeartBeat": true,
+        "Recover": true,
+        "ID": "stress-1",
+        "Addr": "192.168.151.24:8080",
+        "TPS" : "40",
+        "Time": "30000"
+    },
+    "Login": {
+        "ReloginInterval": 10,
+        "LoginTime": 600
+    }
+}

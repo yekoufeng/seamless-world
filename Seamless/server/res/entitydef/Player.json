@@ -1,0 +1,174 @@
+{
+    "name": "Player",
+    "props": {
+        "HP": {
+            "type": "uint32",
+            "save": "0",
+            "desc": "血量"
+        },
+        "MaxHP": {
+            "type": "uint32",
+            "save": "0",
+            "desc": "最大血量"
+        },
+        "Attack": {
+            "type": "uint32",
+            "save": "0",
+            "desc": "攻击"
+        },
+        "Defence": {
+            "type": "uint32",
+            "save": "0",
+            "desc": "防御"
+        },
+        "State": {
+            "type": "uint32",
+            "save": "0",
+            "desc": "状态"
+        },
+        "Name": {
+            "type": "string",
+            "desc": "名称"
+        },
+        "Level": {
+            "type": "uint32",
+            "desc": "玩家等级"
+        },
+        "FriendsNum": {
+            "type": "uint32",
+            "desc": "玩家好友数量"
+        },
+        "OnlineTime": {
+            "type": "int64",
+            "desc": "在线时长"
+        },
+        "TodayOnlineTime": {
+            "type": "int64",
+            "desc": "今天在线时长"
+        },
+        "LogoutTime": {
+            "type": "int64",
+            "desc": "登出时间"
+        },
+        "RoleModel": {
+            "type": "uint32",
+            "desc": "角色模型id"
+        },
+        "PlayerLogin": {
+            "type": "*protoMsg.PlayerLogin",
+            "desc": "玩家登陆时客户端上报的数据"
+        },
+        "Coin": {
+            "type": "uint64",
+            "desc": "金币"
+        },
+        "QQVIP": {
+            "type": "uint8",
+            "desc": "QQ VIP等级, 0:非会员, 1:会员, 2:SVIP"
+        },
+        "Picture": {
+            "type": "string",
+            "desc": "玩家头像URL"
+        },
+        "NickName": {
+            "type": "string",
+            "desc": "WX/QQ昵称"
+        },
+        "Gender": {
+            "type": "string",
+            "desc": "性别"
+        },
+        "GameEnter": {
+            "type": "string",
+            "save": "0",
+            "desc": "登录平台"
+        },
+        "LoginTime": {
+            "type": "int64",
+            "desc": "登录时间"
+        },
+        "AccessToken": {
+            "type": "string",
+            "save": "0",
+            "desc": "accessToken"
+        }
+    },
+
+    "server": {
+        "11": {
+            "desc": "Lobby",
+            "props": [
+                "Name",
+                "State",
+                "RoleModel",
+                "QQVIP",
+                "GameEnter",
+                "Picture",
+                "NickName",
+                "Gender",
+				"FriendsNum",
+                "OnlineTime",
+                "TodayOnlineTime",
+                "LogoutTime",
+				"Level",
+				"LoginTime",
+				"PlayerLogin",
+                "Coin",
+                "QQVIP",
+                "AccessToken"
+            ]
+        },
+        "15": {
+            "desc": "Cell",
+            "props": [
+                "HP",
+                "MaxHP",
+                "Attack",
+                "Defence",
+                "Name",
+                "State",
+                "RoleModel",
+                "QQVIP",
+                "GameEnter",
+                "Picture",
+                "NickName",
+                "Gender",
+				"FriendsNum",
+                "OnlineTime",
+                "TodayOnlineTime",
+                "LogoutTime",
+				"Level",
+				"LoginTime",
+				"PlayerLogin",
+                "Coin",
+                "QQVIP",
+                "AccessToken"
+            ]
+        }
+    },
+
+    "client": {
+        "desc": "客户端关注的属性，需要包含在Space所在的服务器中",
+        "props": [
+            "HP",
+            "MaxHP",
+            "Attack",
+            "Defence",
+            "Name",
+            "State"
+        ]
+    },
+
+    "mrole": {
+        "desc": "主角自己关注的属性，在客户端登录的时候就会下发给客户端",
+        "props": [
+            "HP",
+            "MaxHP",
+            "Attack",
+            "Defence",
+            "Name",
+            "State"
+        ]
+    }
+
+}

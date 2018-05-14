@@ -1,0 +1,27 @@
+{
+    "1": {
+        "id": 1, 
+        "name": "Happy_Ranking", 
+        "value": 8.0
+    }, 
+    "2": {
+        "id": 2, 
+        "name": "MasterScore", 
+        "value": 2000.0
+    }, 
+    "3": {
+        "id": 3, 
+        "name": "Multiplayer_SadScore_K", 
+        "value": 1.5
+    }, 
+    "4": {
+        "id": 4, 
+        "name": "AIGame_SadScore", 
+        "value": 80.0
+    }, 
+    "5": {
+        "id": 5, 
+        "name": "Min_MatchTime", 
+        "value": 3.0
+    }
+}

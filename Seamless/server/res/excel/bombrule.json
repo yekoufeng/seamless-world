@@ -1,0 +1,52 @@
+{
+    "1": {
+        "id": 1, 
+        "bombarea": 30, 
+        "bombtime": 120, 
+        "bombradius": 30.0, 
+        "bombstart": 5, 
+        "bombspeed": 1.0, 
+        "bombdam": 30, 
+        "bombdamrradius": 5.0
+    }, 
+    "2": {
+        "id": 2, 
+        "bombarea": 5, 
+        "bombtime": 120, 
+        "bombradius": 30.0, 
+        "bombstart": 5, 
+        "bombspeed": 1.0, 
+        "bombdam": 30, 
+        "bombdamrradius": 5.0
+    }, 
+    "3": {
+        "id": 3, 
+        "bombarea": 5, 
+        "bombtime": 120, 
+        "bombradius": 30.0, 
+        "bombstart": 5, 
+        "bombspeed": 1.0, 
+        "bombdam": 30, 
+        "bombdamrradius": 5.0
+    }, 
+    "4": {
+        "id": 4, 
+        "bombarea": 5, 
+        "bombtime": 120, 
+        "bombradius": 30.0, 
+        "bombstart": 5, 
+        "bombspeed": 1.0, 
+        "bombdam": 30, 
+        "bombdamrradius": 5.0
+    }, 
+    "5": {
+        "id": 5, 
+        "bombarea": 5, 
+        "bombtime": 120, 
+        "bombradius": 30.0, 
+        "bombstart": 5, 
+        "bombspeed": 1.0, 
+        "bombdam": 30, 
+        "bombdamrradius": 5.0
+    }
+}

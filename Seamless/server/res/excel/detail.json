@@ -1,0 +1,34 @@
+{
+    "1": {
+        "id": 1, 
+        "name": "微信登录特权", 
+        "Dailylogin": "2201;88", 
+        "EndPlus": "0.05", 
+        "DailyLoginMailTitle": "微信登录奖励", 
+        "DailyLoginMail": "恭喜您获得微信游戏中心每日登录奖励！"
+    }, 
+    "2": {
+        "id": 2, 
+        "name": "QQ登录特权", 
+        "Dailylogin": "2201;88", 
+        "EndPlus": "0.05", 
+        "DailyLoginMailTitle": "QQ登录奖励", 
+        "DailyLoginMail": "恭喜您获得QQ游戏中心每日登录奖励！"
+    }, 
+    "3": {
+        "id": 3, 
+        "name": "QQ普通会员特权", 
+        "Dailylogin": "2201;118", 
+        "EndPlus": "0.05", 
+        "DailyLoginMailTitle": "QQ会员登录奖励", 
+        "DailyLoginMail": "恭喜您获得QQ会员每日登录奖励！"
+    }, 
+    "4": {
+        "id": 4, 
+        "name": "QQ超级会员特权", 
+        "Dailylogin": "2201;168", 
+        "EndPlus": "0.08", 
+        "DailyLoginMailTitle": "QQ超级会员登录奖励", 
+        "DailyLoginMail": "恭喜您获得QQ超级会员每日登录奖励！"
+    }
+}

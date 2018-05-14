@@ -1,0 +1,7 @@
+node_modules
+*.log
+*.map
+userdata
+.vscode
+dist
+webpack.config.js

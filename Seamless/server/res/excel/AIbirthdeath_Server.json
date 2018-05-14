@@ -1,0 +1,27 @@
+{
+    "1": {
+        "id": 1, 
+        "name": "AIDeathBeginTime", 
+        "value": 40.0
+    }, 
+    "2": {
+        "id": 2, 
+        "name": "AiIDeathTime_kmin", 
+        "value": 0.5
+    }, 
+    "3": {
+        "id": 3, 
+        "name": "AiIDeathTime_kmax", 
+        "value": 1.5
+    }, 
+    "4": {
+        "id": 4, 
+        "name": "playerRank_kmin", 
+        "value": 1.0
+    }, 
+    "5": {
+        "id": 5, 
+        "name": "playerRank_kmax", 
+        "value": 1.3
+    }
+}

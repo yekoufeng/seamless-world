@@ -1,0 +1,80 @@
+{
+    "1": {
+        "id": 1, 
+        "prestate": 3, 
+        "nextstate": 4, 
+        "stiffness": 1200.0
+    }, 
+    "2": {
+        "id": 2, 
+        "prestate": 5, 
+        "nextstate": 12, 
+        "stiffness": 1000.0
+    }, 
+    "3": {
+        "id": 3, 
+        "prestate": 12, 
+        "nextstate": 5, 
+        "stiffness": 1000.0
+    }, 
+    "4": {
+        "id": 4, 
+        "prestate": 3, 
+        "nextstate": 8, 
+        "stiffness": 667.0
+    }, 
+    "5": {
+        "id": 5, 
+        "prestate": 4, 
+        "nextstate": 10, 
+        "stiffness": 700.0
+    }, 
+    "6": {
+        "id": 6, 
+        "prestate": 4, 
+        "nextstate": 12, 
+        "stiffness": 300.0
+    }, 
+    "7": {
+        "id": 7, 
+        "prestate": 12, 
+        "nextstate": 4, 
+        "stiffness": 300.0
+    }, 
+    "8": {
+        "id": 8, 
+        "prestate": 0, 
+        "nextstate": 0, 
+        "stiffness": 667.0
+    }, 
+    "9": {
+        "id": 9, 
+        "prestate": 0, 
+        "nextstate": 0, 
+        "stiffness": 667.0
+    }, 
+    "10": {
+        "id": 10, 
+        "prestate": 0, 
+        "nextstate": 0, 
+        "stiffness": 200.0
+    }, 
+    "11": {
+        "id": 11, 
+        "prestate": 0, 
+        "nextstate": 0, 
+        "stiffness": 1200.0
+    }, 
+    "12": {
+        "id": 12, 
+        "prestate": 4, 
+        "nextstate": 5, 
+        "stiffness": 1000.0
+    }, 
+    "13": {
+        "id": 13, 
+        "prestate": 5, 
+        "nextstate": 4, 
+        "stiffness": 1000.0
+    }
+}

@@ -1,0 +1,33 @@
+<table align="center">
+    <tr>
+        <td>
+            <label for="txtuid">UID: </label>
+        </td>
+        <td>
+            <input ng-model="txtuid" disabled="true" />
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="txtentityid">EntityID: </label>
+        </td>
+        <td>
+            <input ng-model="txtentityid" disabled="true" />
+        </td>
+    </tr>
+</table>
+<br />
+<button ng-click="clickMatch1()">单人匹配</button>
+<br />
+<br />
+<br />
+<table align="center">
+    <tr>
+        <td>
+            当前状态：
+        </td>
+        <td>
+            {{txtmatch}}
+        </td>
+    </tr>
+</table>

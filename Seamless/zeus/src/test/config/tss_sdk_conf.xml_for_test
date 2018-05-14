@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="GBK" standalone="yes" ?>
+<config __version="1">
+    <!--log_config_: 日志配置-->
+    <log_config_>
+        <!--log_level_: 1 trace, 2 debug, 3 info, 4 error, 5 alert, 6 fatal-->
+        <!--DEFAULT VALUE: '3'-->
+        <log_level_>1 </log_level_>
+    </log_config_>
+
+    <!--uic_config_: uic sdk配置-->
+    <uic_config_>
+        <!--use_backend_check_: 是否开启安全后台检测-->
+        <!--DEFAULT VALUE: '1'-->
+        <use_backend_check_>0 </use_backend_check_>
+
+        <!--user_input_code_: 游戏发言信息的编码格式：gbk(0), utf8(1)-->
+        <!--DEFAULT VALUE: '1'-->
+        <user_input_code_>1 </user_input_code_>
+        <!--use_dirty_file_flag_: 是否使用本地脏词文件-->
+        <use_dirty_file_flag_>1 </use_dirty_file_flag_>
+        <!--dirty_file_: 本地脏词文件路径-->
+        <dirty_file_>./vocabulary.txt</dirty_file_>
+    </uic_config_>
+
+    <!--anti_config_: 反外挂sdk配置-->
+    <anti_config_>
+        <!--enable_check_: 是否启用验收用代码-->
+        <!--DEFAULT VALUE: '0'-->
+        <enable_check_>1 </enable_check_>
+        <!--echo_nodecrypt_: 是否自动echo收到的客户端上报的数据，验收时使用-->
+        <!--DEFAULT VALUE: '0'-->
+        <echo_nodecrypt_>1 </echo_nodecrypt_>
+    </anti_config_>
+</config>

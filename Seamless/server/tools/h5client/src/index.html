@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" type="image/x-icon" href="./app/imgs/favicon.ico" />
+    <title>H5Client</title>
+
+    <link rel="stylesheet" href="./app/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="./app/util/preload/preload.css">
+    <script type="text/javascript" src="./app/util/preload/preload.js"></script>
+</head>
+
+<body ng-app="app">
+
+    <!-- PRELOAD PAGE -->
+    <div id="page-preload" class="preloading">
+        <div class="preloading-body">
+
+            <span class="preloading-body-title">
+                <i class="fa fa-gear fa-spin"></i>
+                <strong>H5Client</strong>
+            </span>
+            <span id="page-preload-progress" class="preloading-body-subtitle">
+                Loading...
+            </span>
+
+        </div>
+    </div>
+    <!-- END PRELOAD PAGE -->
+
+    <!-- APP PAGE -->
+    <div>
+        <runoob-stage></runoob-stage>
+    </div>
+    <!-- END APP PAGE -->
+</body>
+
+</html>
+
+<script>
+    preloadProgress('Loading css...');
+</script>
+<link rel="stylesheet" href="./app/css/main.css">
+
+<script>
+    preloadProgress('Loading bundle...');
+</script>
+<script type="text/javascript" src="./bundle.js"></script>
+
+<script>
+    preloadProgress('Starting application... Have Fun!');
+</script>

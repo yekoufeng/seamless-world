@@ -1,0 +1,9 @@
+{
+    "name": "H5Client",
+    "version": "0.1.0",
+    "main": "app.js",
+    "window": {
+        "title": "H5Client (v[0.1.0])",
+        "position": "center"
+    }
+}

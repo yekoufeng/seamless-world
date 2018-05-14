@@ -1,0 +1,128 @@
+{
+    "1901": {
+        "id": 1901, 
+        "name": "皮卡", 
+        "seat": 2, 
+        "fuelCap": 80.0, 
+        "fuelConsume": 0.13, 
+        "fuelMin": 48.0, 
+        "fuelMax": 64.0
+    }, 
+    "1902": {
+        "id": 1902, 
+        "name": "山地车", 
+        "seat": 2, 
+        "fuelCap": 60.0, 
+        "fuelConsume": 0.1, 
+        "fuelMin": 36.0, 
+        "fuelMax": 48.0
+    }, 
+    "1903": {
+        "id": 1903, 
+        "name": "气垫船", 
+        "seat": 4, 
+        "fuelCap": 50.0, 
+        "fuelConsume": 0.08, 
+        "fuelMin": 30.0, 
+        "fuelMax": 40.0
+    }, 
+    "1904": {
+        "id": 1904, 
+        "name": "吉普车", 
+        "seat": 4, 
+        "fuelCap": 70.0, 
+        "fuelConsume": 0.1, 
+        "fuelMin": 42.0, 
+        "fuelMax": 56.0
+    }, 
+    "1905": {
+        "id": 1905, 
+        "name": "AE86", 
+        "seat": 4, 
+        "fuelCap": 50.0, 
+        "fuelConsume": 0.06, 
+        "fuelMin": 30.0, 
+        "fuelMax": 40.0
+    }, 
+    "1906": {
+        "id": 1906, 
+        "name": "五菱", 
+        "seat": 4, 
+        "fuelCap": 60.0, 
+        "fuelConsume": 0.07, 
+        "fuelMin": 36.0, 
+        "fuelMax": 48.0
+    }, 
+    "1907": {
+        "id": 1907, 
+        "name": "摩托车", 
+        "seat": 2, 
+        "fuelCap": 60.0, 
+        "fuelConsume": 0.07, 
+        "fuelMin": 36.0, 
+        "fuelMax": 48.0
+    }, 
+    "1908": {
+        "id": 1908, 
+        "name": "蹦蹦车", 
+        "seat": 2, 
+        "fuelCap": 60.0, 
+        "fuelConsume": 0.1, 
+        "fuelMin": 36.0, 
+        "fuelMax": 48.0
+    }, 
+    "1909": {
+        "id": 1909, 
+        "name": "赛车", 
+        "seat": 4, 
+        "fuelCap": 50.0, 
+        "fuelConsume": 0.06, 
+        "fuelMin": 30.0, 
+        "fuelMax": 40.0
+    }, 
+    "1910": {
+        "id": 1910, 
+        "name": "蓝皮卡", 
+        "seat": 4, 
+        "fuelCap": 80.0, 
+        "fuelConsume": 0.13, 
+        "fuelMin": 48.0, 
+        "fuelMax": 64.0
+    }, 
+    "1911": {
+        "id": 1911, 
+        "name": "游艇", 
+        "seat": 4, 
+        "fuelCap": 50.0, 
+        "fuelConsume": 0.08, 
+        "fuelMin": 30.0, 
+        "fuelMax": 40.0
+    }, 
+    "1912": {
+        "id": 1912, 
+        "name": "越野车", 
+        "seat": 4, 
+        "fuelCap": 60.0, 
+        "fuelConsume": 0.1, 
+        "fuelMin": 36.0, 
+        "fuelMax": 48.0
+    }, 
+    "1913": {
+        "id": 1913, 
+        "name": "越野摩托", 
+        "seat": 2, 
+        "fuelCap": 60.0, 
+        "fuelConsume": 0.1, 
+        "fuelMin": 36.0, 
+        "fuelMax": 48.0
+    }, 
+    "1914": {
+        "id": 1914, 
+        "name": "商务车", 
+        "seat": 6, 
+        "fuelCap": 60.0, 
+        "fuelConsume": 0.07, 
+        "fuelMin": 36.0, 
+        "fuelMax": 48.0
+    }
+}

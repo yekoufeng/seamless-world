@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="GBK" standalone="yes" ?>
+<config>
+	
+	<log_config_>
+		<log_level_> debug </log_level_>
+	</log_config_>
+	
+	<anti_config_>
+		<enable_check_> 1 </enable_check_>
+		<echo_nodecrypt_> 1 </echo_nodecrypt_>
+	</anti_config_>
+	
+	<uic_config_>
+		<use_backend_check_> 0 </use_backend_check_>
+		<user_input_code_> 1 </user_input_code_>
+		<use_dirty_file_flag_> 1 </use_dirty_file_flag_>
+		<dirty_file_> ./vocabulary.txt</dirty_file_>
+		<bus_id_> 47 </bus_id_>
+	</uic_config_>
+    
+    <safemode_config_>
+        <sensitive_buff_time_> 60 </sensitive_buff_time_>
+    </safemode_config_>
+	
+</config>

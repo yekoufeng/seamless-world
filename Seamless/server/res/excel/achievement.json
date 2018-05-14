@@ -1,0 +1,22 @@
+{
+    "1": {
+        "id": 1, 
+        "type": 1, 
+        "name": "首次单局十杀", 
+        "content": "玩家首次单局十杀", 
+        "bonusID": 7, 
+        "bonusNum": 1, 
+        "mailTitle": "成就奖励", 
+        "mailContent": "勇敢的战士，恭喜您在演习中大展神威，成功解锁新角色！"
+    }, 
+    "2": {
+        "id": 2, 
+        "type": 1, 
+        "name": "首次吃鸡", 
+        "content": "玩家首次获得第一名", 
+        "bonusID": 1, 
+        "bonusNum": 1, 
+        "mailTitle": "成就奖励", 
+        "mailContent": "光荣的战士，恭喜您在演习中脱颖而出，成功解锁新角色！"
+    }
+}

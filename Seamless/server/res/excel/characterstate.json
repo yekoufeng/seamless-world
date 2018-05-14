@@ -1,0 +1,107 @@
+{
+    "1": {
+        "id": 1, 
+        "name": "飞机中", 
+        "beDetectedFix": 0.0, 
+        "beHitFix": 1.0, 
+        "aiViewFix": 1.0
+    }, 
+    "2": {
+        "id": 2, 
+        "name": "俯冲", 
+        "beDetectedFix": 0.0, 
+        "beHitFix": 1.0, 
+        "aiViewFix": 1.0
+    }, 
+    "3": {
+        "id": 3, 
+        "name": "跳伞", 
+        "beDetectedFix": 1.0, 
+        "beHitFix": 1.0, 
+        "aiViewFix": 1.0
+    }, 
+    "4": {
+        "id": 4, 
+        "name": "站立", 
+        "beDetectedFix": 1.0, 
+        "beHitFix": 1.0, 
+        "aiViewFix": 1.0
+    }, 
+    "5": {
+        "id": 5, 
+        "name": "匍匐", 
+        "beDetectedFix": 0.5, 
+        "beHitFix": 0.5, 
+        "aiViewFix": 0.5
+    }, 
+    "6": {
+        "id": 6, 
+        "name": "载具", 
+        "beDetectedFix": 1.0, 
+        "beHitFix": 1.0, 
+        "aiViewFix": 1.0
+    }, 
+    "7": {
+        "id": 7, 
+        "name": "乘客", 
+        "beDetectedFix": 1.0, 
+        "beHitFix": 1.0, 
+        "aiViewFix": 1.0
+    }, 
+    "8": {
+        "id": 8, 
+        "name": "游泳", 
+        "beDetectedFix": 1.0, 
+        "beHitFix": 1.0, 
+        "aiViewFix": 1.0
+    }, 
+    "9": {
+        "id": 9, 
+        "name": "死亡", 
+        "beDetectedFix": 1.0, 
+        "beHitFix": 1.0, 
+        "aiViewFix": 1.0
+    }, 
+    "10": {
+        "id": 10, 
+        "name": "将死", 
+        "beDetectedFix": 1.0, 
+        "beHitFix": 1.0, 
+        "aiViewFix": 1.0
+    }, 
+    "11": {
+        "id": 11, 
+        "name": "观战", 
+        "beDetectedFix": 1.0, 
+        "beHitFix": 1.0, 
+        "aiViewFix": 1.0
+    }, 
+    "12": {
+        "id": 12, 
+        "name": "下蹲", 
+        "beDetectedFix": 0.5, 
+        "beHitFix": 0.5, 
+        "aiViewFix": 0.5
+    }, 
+    "13": {
+        "id": 13, 
+        "name": "坠落", 
+        "beDetectedFix": 1.0, 
+        "beHitFix": 1.0, 
+        "aiViewFix": 1.0
+    }, 
+    "14": {
+        "id": 14, 
+        "name": "跳跃", 
+        "beDetectedFix": 1.0, 
+        "beHitFix": 1.0, 
+        "aiViewFix": 1.0
+    }, 
+    "15": {
+        "id": 15, 
+        "name": "离线", 
+        "beDetectedFix": 0.0, 
+        "beHitFix": 0.0, 
+        "aiViewFix": 0.0
+    }
+}

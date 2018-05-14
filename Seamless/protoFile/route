@@ -1,0 +1,6 @@
+GunReformReq = 12;
+GunReformUnequipReq = 12;
+ShootReq = 12;
+ChangeBulletReq = 12;
+UseObjectReq = 12;
+SummonAINotify = 12;

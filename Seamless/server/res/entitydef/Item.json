@@ -1,0 +1,41 @@
+{
+    "name" : "Item" ,
+    "props" : {
+        "baseid" : {
+            "type" : "uint32" ,
+            "save" : "0" ,
+            "desc" : "属性"
+        },
+		 "num" : {
+            "type" : "uint32" ,
+            "save" : "0" ,
+            "desc" : "属性"
+        },
+		 "reducedam" : {
+            "type" : "uint32" ,
+            "save" : "0" ,
+            "desc" : "耐久"
+        }
+    },
+    "server": {
+        "12": {
+            "desc": "Room",
+            "props": [
+            ]
+        }
+    },
+
+    "client": {
+        "desc": "客户端关注的属性，需要包含在Space所在的服务器中",
+        "props": [
+            
+        ]
+    },
+
+    "mrole": {
+        "desc": "主角自己关注的属性，在客户端登录的时候就会下发给客户端",
+        "props": [
+            
+        ]
+    }
+}
