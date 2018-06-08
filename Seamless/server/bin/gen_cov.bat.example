@@ -1,0 +1,4 @@
+tail -q -n +2 Room.cov >> Room_all.cov
+go tool cover -html=Room_all.cov -o RoomCov.html
+
+pause
