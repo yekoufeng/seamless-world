@@ -126,11 +126,11 @@ func (bt *bspTree) merge(node *bspNode) {
 	bt.space.cellChangeNotify(node.Parent.cell.getSrvID(), node.Parent.cell.getID(), node.Parent.cell.getProtoMsgRect())
 
 	bt.space.deleteCellNotify(node.cell)
-	//删除自己
-	bt.deleteNode(node)
-
 	//删除兄弟结点
 	bt.deleteNode(node.getBrother())
+	
+	//删除自己
+	bt.deleteNode(node)
 
 }
 
