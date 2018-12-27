@@ -88,7 +88,7 @@ func (sp *Space) delCell(cellid uint64) {
 	sp.cells.Delete(cellid)
 
 	//把cellinfo广播给所有cellapp
-	sp.syncCellinfoToSpace(sp.cellSrv.GetCellMgrID(), cellid, nil, GetSrvInst().GetSrvID(), 3)
+	sp.syncCellinfoToSpace(sp.cellSrv.GetCellMgrID(), cellid, &protoMsg.RectInfo{}, GetSrvInst().GetSrvID(), 3)
 
 }
 
