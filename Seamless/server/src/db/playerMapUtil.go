@@ -73,5 +73,5 @@ func (u *playerMapUtil) GetPlayerMapData() *PlayerMapData {
 }
 
 func (u *playerMapUtil) key() string {
-	return fmt.Sprintf("%s:%d", playerTempPrefix, u.uid)
+	return fmt.Sprintf("%s:%d", playerMapPrefix, u.uid)
 }
