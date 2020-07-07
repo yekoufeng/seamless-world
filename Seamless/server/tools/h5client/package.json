@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "angular": "^1.6.9",
-    "electron": "^1.8.4",
+    "electron": "^9.1.0",
     "google-protobuf": "^3.5.0",
     "int64-buffer": "^0.1.10",
     "sprintf-js": "^1.1.1"
